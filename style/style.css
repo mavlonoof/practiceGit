@@ -17,3 +17,23 @@
     height: 100vh;
     background: url(../images/header.jpg) no-repeat center /cover;
 }
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu {
+    display: flex;
+    
+}
+
+.header__menu-link {
+    color: black;
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.header__menu-link:hover {
+    color: #2b6ccd;
+}
